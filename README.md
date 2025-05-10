@@ -1,59 +1,41 @@
-# Inventario de PCs
+# 📋 Formulario de Inventario de PCs
 
-Este proyecto permite registrar información detallada sobre los ordenadores en una empresa, como el nombre del PC, modelo, chipset, si tiene doble pantalla, SSD, si es portátil y otras observaciones. Los datos se guardan en un archivo CSV.
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
-## Funcionalidades
+Aplicación de escritorio para gestión de equipos informáticos con interfaz intuitiva y almacenamiento en CSV.
 
-- **Registro de PCs**: Puedes registrar múltiples PCs con detalles específicos como el modelo, chipset, si tiene SSD, entre otros.
-- **Interfaz gráfica**: La aplicación tiene una interfaz gráfica fácil de usar, creada con **Tkinter**.
-- **Guardar en CSV**: Los datos de los PCs registrados se pueden guardar en un archivo CSV.
+## 🚀 Características principales
 
-## Requisitos
+- **Registro completo** de especificaciones técnicas
+- Interfaz gráfica con **Tkinter**
+- Exportación automática a **CSV organizado**
+- Validación de campos obligatorios
+- Soporte para múltiples registros simultáneos
 
-- Python 3.x
-- Tkinter (incluido en la instalación estándar de Python)
-- CSV (también parte de la biblioteca estándar de Python)
+## 📦 Requisitos
 
-## Instalación
+```bash
+Python 3.8+
+Tkinter (incluido en Python)
+```
 
-1. Clona este repositorio en tu máquina local:
-
+🛠 Instalación
+1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/inventario-pcs.git
-Navega al directorio del proyecto:
+   git clone https://github.com/DarksAces/Formulario-Pc.git
+   ```
+2. Accede al directorio:
+   ```bash
+   cd Formulario-Pc
+   ```
+3. Ejecuta la aplicación:
+   ````bash
+      python inventario_pcs.py
+🖥 Uso básico
+   Ingresa la cantidad de PCs a registrar
 
-bash
-Copiar
-Editar
-cd inventario-pcs
-No necesitas instalar dependencias adicionales, ya que este proyecto utiliza bibliotecas estándar de Python.
+   Completa todos los campos del formulario
 
-Uso
-Ejecuta el archivo Python inventario_pcs.py:
+   Guarda los datos con el botón "Exportar a CSV"
 
-bash
-Copiar
-Editar
-python inventario_pcs.py
-La aplicación te pedirá que introduzcas el número de PCs que deseas registrar.
-
-Luego, podrás llenar los formularios con la información de cada PC, como el nombre, el modelo, el chipset, si tiene doble pantalla, SSD, etc.
-
-Al finalizar, podrás guardar la información en un archivo CSV.
-
-Estructura del Proyecto
-bash
-Copiar
-Editar
-inventario-pcs/
-│
-├── inventario_pcs.py  # Código principal de la aplicación
-└── README.md          # Este archivo de documentación
-Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
-
-go
-Copiar
-Editar
-
-Solo tienes que copiar este contenido y pegarlo en un archivo `README.md` dentro de tu repositorio de GitH
+   Encuentra tu archivo en formato inventario_[fecha].csv
